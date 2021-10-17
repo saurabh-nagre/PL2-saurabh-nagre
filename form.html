@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+
+    <style>
+        form{
+            width: 40%;
+            margin-left: 30%;
+        }
+        label{
+            border-radius: 5px;
+            background-color: azure;
+            margin-top: 20px;
+            margin-inline: 5%;
+        }
+
+        input{
+            margin-inline: 5%;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+    </style>
+    <script type = "text/javascript">  
+
+        function fun() { 
+            var val1 = document.getElementById("name").value;
+            var val2 = document.getElementById("email").value;
+            var val3 = document.getElementById("interest").value;
+            if(val1==""){
+                alert("Please fill your name");
+            }
+            else if(val2==""){
+                alert("please fill your email");
+            }
+            else if(val3==""){
+                alert("please fill your interese");
+            }
+            else
+                alert("We will soon contact you! ");  
+        }  
+    </script>    
+</head>
+<body>
+
+    <address id="contact">
+        <p style="width: 40%;margin-left: 30%;"><strong>Contact Details:</strong>
+            <em>Saurabh Nagre</em>  <a href="mailto:saurabh.nage@walchandsangli.ac.in">Click to Mail</a>
+        </p>
+    </address>
+    
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="intrest">Intrest:</label>
+        <input type="text" id="interest" name="intrest" required><br>
+        <input type = "submit" value = "submit" onclick = "fun();">
+            
+    </form>
+  
+    
+    
+</body>
+</html>

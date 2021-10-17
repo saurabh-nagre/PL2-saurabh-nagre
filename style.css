@@ -1,0 +1,126 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header{
+    width: 45%;
+    float: left;
+    padding-left: 5%;
+
+}
+header>h1{
+    margin-bottom: 0px;
+}
+
+nav{
+    width: 45%;
+    float: right;
+    position: sticky;
+    margin-right: 5%;
+    
+}
+nav>a{
+    background-color: greenyellow;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    float: right;
+    margin-inline: 10px;
+    margin-top: 30px;
+}
+nav>a:hover{
+    background-color:salmon;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 25px;
+    margin-inline: 10px;
+}
+aside{
+    width: 20%;
+    float:left;
+    margin:5% 0 0 5% ;
+}
+aside>.profileimg{
+    width: 100%;
+    border-radius: 10px;
+    float: left;
+}
+.intro{
+    width: 63%;
+    text-align: justify;
+    align-self: center;
+    float: right;
+    background-color: rgb(35, 94, 94);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-inline:5%;
+    margin-top: 5%;   
+    padding: 1%;
+    border-radius: 10px;
+}
+.objective{
+    float: left;
+    width: 65%;
+    margin-inline: 5%;
+    margin-top:20px;      
+}
+.technical{
+    width: 30%;
+    float:left;
+    margin-top: 10px;
+    margin-inline: 5%;
+}
+.education{
+    margin-inline:5%;
+    margin-top: 10px;
+    float: left;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+.projects{
+    text-align: justify;
+    margin-inline: 5%;
+    margin-top: 10px;
+    width: 40%;
+    float: right;
+}
+.activities{
+    margin-top: 10px;
+    margin-inline: 5%;
+    width: 40%;
+    float: right;
+    text-align: justify;
+}
+.languages{
+    float:left;
+    width: 20%;
+    margin-top: 20px;
+    margin-inline: 5%;
+}
+.hometown{
+    float: right;
+    margin-inline: 5%;
+    margin-top:10px;
+    width: 60%;
+    text-align: justify;
+}
+img{
+    width: 30%;
+    height: 30%;
+    float:left;
+    margin-inline: 1%;
+}
